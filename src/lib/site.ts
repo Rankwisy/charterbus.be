@@ -1,0 +1,31 @@
+export const site = {
+  name: "CharterBus.be",
+  tagline: "Premium Charter Bus & Coach Rental in Belgium",
+  url: "https://charterbus.be",
+  phone: "+32 2 781 01 50",
+  phoneHref: "tel:+3227810150",
+  email: "info@charterbus.be",
+  address: {
+    street: "Rue Bara",
+    postalCode: "1070",
+    city: "Brussels",
+    country: "Belgium",
+  },
+  hours: "Monday – Sunday, 09:00 – 18:00",
+  social: {
+    facebook: "https://facebook.com/charterbus.be",
+    instagram: "https://instagram.com/charterbus.be",
+    linkedin: "https://linkedin.com/company/charterbus-be",
+  },
+  serviceAreas: [
+    "Brussels",
+    "Antwerp",
+    "Ghent",
+    "Bruges",
+    "Liège",
+    "Leuven",
+    "Charleroi",
+    "Namur",
+  ],
+  airports: ["Brussels Airport", "Charleroi Airport"],
+};
