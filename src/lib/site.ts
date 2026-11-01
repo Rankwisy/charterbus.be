@@ -6,10 +6,10 @@ export const site = {
   phoneHref: "tel:+3227810150",
   email: "info@charterbus.be",
   address: {
-    street: "Rue Bara",
-    postalCode: "1070",
-    city: "Brussels",
-    country: "Belgium",
+    street: "Z. 4 Broekooi",
+    postalCode: "1730",
+    city: "Asse",
+    country: "Belgique",
   },
   hours: "Monday – Sunday, 09:00 – 18:00",
   social: {

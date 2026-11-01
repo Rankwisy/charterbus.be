@@ -23,7 +23,7 @@ export default function TermsPage() {
           <p>
             These Terms of Service govern the use of charter bus and coach
             rental services provided by {site.name}, {site.address.street},{" "}
-            {site.address.postalCode} {site.address.city}, Belgium. By
+            {site.address.postalCode} {site.address.city}, {site.address.country}. By
             requesting a quote or booking a trip, you agree to these terms.
           </p>
           <h2 className="text-lg font-bold text-primary">Bookings &amp; Quotes</h2>

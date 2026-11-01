@@ -18,7 +18,7 @@ const cards = [
   {
     icon: MapPin,
     title: "Address",
-    lines: [site.address.street, `${site.address.postalCode} ${site.address.city}`, "Belgium"],
+    lines: [site.address.street, `${site.address.postalCode} ${site.address.city}`, site.address.country],
   },
   {
     icon: Mail,
@@ -92,7 +92,7 @@ export default function ContactPage() {
               <iframe
                 title="CharterBus.be location map"
                 src={`https://www.google.com/maps?q=${encodeURIComponent(
-                  `${site.address.street}, ${site.address.postalCode} ${site.address.city}, Belgium`
+                  `${site.address.street}, ${site.address.postalCode} ${site.address.city}, ${site.address.country}`
                 )}&output=embed`}
                 width="100%"
                 height="100%"
